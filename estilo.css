@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    border: 0;
+    margin: 0;
+    background-color: #0D0D0D;
+    height: 1920px;
+}
+
+a{
+    color: #4994FF;
+}
+
+.topo{
+    display: flex;
+    width: 100%;
+    height: 56px;
+    background-color: #181818;
+}
+
+
+
+
+#topo--container--1{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.topo--icon{
+    width: 24px;
+    height: 24px;
+    margin: 20px;
+    cursor: pointer;
+}
+.topo--logo{
+    margin:25px;
+    width: 100.91px;
+    height: 22.381px;
+    cursor: pointer;
+}
+
+#topo--container--2{
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo--pesquisa{
+    width: 450px;
+    height: 38px;
+    border: 1px solid #2A2A2A;
+    outline: 0px;
+    background-color: #0F0F0F;
+    border-radius: 45px 0px 0px 45px;
+    color: white;
+}
+
+.botao--pesquisa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    width: 70px;
+    border-radius: 0px 45px 45px 0px;
+    border: 0px;
+    outline: 0px;
+    background-color: #2A2A2A;
+    cursor: pointer;
+}
+
+.botao--pesquisa--icon{
+    width: 24px;
+    height: 24px;
+}
+
+.botao--microfone{
+    height: 38px;
+    width: 38px;
+    border: 0px;
+    outline: 0px;
+    background-color: #2A2A2A;
+    border-radius: 45px;
+    margin-left: 32px;
+    cursor: pointer;
+}
+.botao--microfone--icon{
+    width: 24px;
+    height: 24px;
+}
+
+#topo--container--3{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.container--3--icon{
+     width: 28px;
+     cursor: pointer;
+}
+
+.avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #912DF5;
+    margin-right: 12px;
+    background-image: url("./assets/images/foto-perfil.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+nav{
+    height: 309px;
+    width: 88px;
+    background-color: #0F0F0F;
+    display: flex;
+    flex-direction: column;  
+    gap: 32px;
+    margin-top: 20px;
+}
+
+.botao--menu{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Inter;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.banner{
+    width: 100%;
+    background-image: url("./assets/images/capa yt.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+.meio--container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.meio{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    display: flex;
+    margin-top: 25px;
+}
+
+.sessoes--do--meio{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.infos--canal{
+    height: 148px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.infos--canal--1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avatar--canal{
+    width: 128px;
+    height: 128px;
+    background-color: #912DF5;
+    border-radius: 50%;
+    background-image: url("./assets/images/foto-perfil.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+.nome--canal--container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: #fff;
+    margin-left: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 500;
+
+}
+
+.nome--canal{
+    margin: 0px;
+    font-size: 30.375px;
+}
+
+.nome--icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.numero--inscritos{
+    font-size: 14px;
+    color: #8F8F8F;
+}
+
+.infos--canal--2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.subscribe--button{
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 65px;
+    background: #fff;
+    font-family: Roboto;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.menu--meio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.menu--meio--item{
+    display: flex;
+    flex: 1;
+    
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #8F8F8F;
+    cursor: pointer;
+}
+
+.menu--home{
+    border-bottom: 2px solid white;
+}
+
+.menu--meio--item:hover{
+    border-bottom: 2px solid white;
+}
+
+.trailer--container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 118px;
+    gap: 30px;
+    padding: 2.5px;
+}
+
+.trailer--container:hover{
+    border-radius: 8px;
+    background: #8f8f8f28;
+    padding: 2.5px;
+    
+}
+
+.video--container{
+    display: flex;
+    background-color: #912DF5;
+    width: 210px;
+    height: 118px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    background-image: url("./assets/images/capa yt.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.trailer--description{
+    display: flex;
+    flex-direction: column;
+}
+
+.video--name{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.video--infos{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 12px;
+    color: #8F8F8F;
+    font-style: normal;
+    line-height: normal;
+    margin: 0px;
+    margin-top: 6px;
+}
+
+.video--description{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    color: #EFEFEF;
+    font-style: normal;
+    line-height: 150%;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.sessao--de--videos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.sessao--nome--container{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+
+.sessao--nome{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.play--all--button{
+    display: flex;
+    padding: 10px 45px 10px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 65px;
+    background: transparent;
+    color: white;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    font-size: 14px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.play--all--button::before{
+    content: "";
+    display: flex;
+    width: 15px;
+    height: 15px;
+    background: url("./assets/icons/play.svg")
+}
+
+.play--all--button:hover{
+    background: #8F8F8F;
+}
+
+
+
+.sessao--videos--container{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+
+
+
+
+.sessao--videos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2.5px 2.5px 10px;
+}
+
+.sessao--videos:hover{
+    border-radius: 8px;
+    background: #8f8f8f28;
+    padding: 2.5px 2.5px 10px;
+}
+
+.channel--name{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 12px;
+    color: #8F8F8F;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    gap: 5px;
+}
+
+.channel--name--icone{
+    height: 12px;
+    width: 12px;
+}
