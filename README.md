@@ -44,6 +44,14 @@ cd CLONE_YOUTUBE_HAVENOX
 
 Este projeto é de código aberto e está sob a licença **MIT**.
 
----
 
-🚀 **Desenvolvido por [Havenox](https://github.com/Havenox)**
+## 🤝 Contribuição
+
+Sinta-se à vontade para contribuir com melhorias, abrir issues ou criar pull requests!
+
+
+## 📌 Autor
+
+🚀 Desenvolvido por **Eduardo Nascimento**
+
+🔗 [GitHub](https://github.com/Havenox) | [LinkedIn](https://www.linkedin.com/in/havenox)
