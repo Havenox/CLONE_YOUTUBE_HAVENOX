@@ -23,15 +23,17 @@ Este projeto é uma recriação do layout do YouTube utilizando **HTML** e **CSS
 
 ## 📂 Como Executar Localmente
 
+
+### Clone este repositório
 ```bash
-# Clone este repositório
 git clone https://github.com/Havenox/CLONE_YOUTUBE_HAVENOX.git
-
-# Acesse a pasta do projeto
-cd CLONE_YOUTUBE_HAVENOX
-
-# Abra o arquivo index.html no navegador
 ```
+### Acesse a pasta do projeto
+```bash
+cd CLONE_YOUTUBE_HAVENOX
+```
+# Abra o arquivo index.html no navegador
+
 
 ## 🎯 Melhorias Futuras
 - Implementação de JavaScript para interatividade dinâmica.
